@@ -37,7 +37,7 @@ https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-f
 - hehe vấn đề lại tiếp tục là ip của bạn là lan đâu có public sao con server nó kết nối được :> 
 - giờ phải dùng ngrok ae ạ 
 - chạy lệnh ./ngrok tcp yourport okay và giờ bạn nhận được 1 cái địa chỉ ip và port public thông về với ip local của bạn
-- (đơn giản hiểu là con ngrok nó sẽ tạo 1 ip đứng ở giữa nhận kết nối ngược từ server rồi gửi về iplocal của bạn kiểu man in the middle á)
+- (đơn giản hiểu là con ngrok nó sẽ tạo 1 ip đứng ở giữa nhận kết nối ngược từ server rồi gửi về ip local của bạn kiểu man in the middle á)
 
 - chạy lệnh tạo shell với yourip (là cái ip của ngrok cho) yourport (là cái port của ngrok)
 - encode base64 xong url đi 
@@ -46,4 +46,4 @@ https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-f
 
 #hackerga2101:
 - wu của mình chia sẻ là chính và con server khá lag nên kết nối lại ngại lắm kkk ae đọc hiểu thui không có ảnh đoạn sau
-- đánh giá thì bài này khá hay mình
+- đánh giá thì bài này khá hay
