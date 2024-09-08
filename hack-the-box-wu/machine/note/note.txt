@@ -1,0 +1,16 @@
+searchslpoit + chuỗi search 
+msfconsole
+search + vuln_name
+use + vuln_name
+show options
+set RHOST (cần thì RPORT)
+set CHOST tun0 
+exploit
+
+nếu có require session thì cần ssh lấy session trước 
+
+sudo -l : check xem quyền user hiện tại có thực thi lệnh ở đâu với tư cách user khác k
+
+SETENV means that the current environment will be used rather than a fresh one.
+
+Typically .bashrc files are found in home directories (and there’s one system-wide one in /etc), but there’s no reason there can’t be one here
